@@ -1,0 +1,55 @@
+body { 
+	margin:10px; background-image: url("wall.jpg");
+}
+
+.container {
+  width:800px;
+  margin:0 auto;
+}
+
+.barra {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  height: 23px; width: 200px;
+  font-family: calibri;
+  padding: 5px;
+  border-radius: 5px;
+}
+#my_canvas{ 
+  background: transparent; 
+}
+.boton{
+    color: #df0004;
+    font-size: 40px;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    font-size: 40px;
+    font-family: calibri;
+    padding: 8px 8px;
+    margin: 8px;
+}
+
+.boton:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.contenedor {
+	margin-top: 20px;
+}
+
+.Volver-a-jugar {
+	font-size: 25px;
+	border-radius: 6px;
+	cursor: pointer;
+	padding: 10px 10px;
+	margin-top: 10px;
+	background-color: #000;
+    color: #efefef;
+	border: none;
+	font-family: calibri;
+	align-items: center;
+}
